@@ -8,11 +8,11 @@ ul{
 }
 
 ul li a{
-    height: 20rem;
+    height: 25rem;
     width: 20rem;
     border: 1px solid whitesmoke;
-    border-radius: 3rem;
-    margin: 3rem;
+    border-radius: 1rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -22,3 +22,8 @@ ul li a{
 li a:hover{
     opacity: 0.9;
 }
+
+/* ul li a .content{
+    position: absolute;
+    top: 48%;
+} */
