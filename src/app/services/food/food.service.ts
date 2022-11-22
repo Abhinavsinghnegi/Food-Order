@@ -75,7 +75,29 @@ export class FoodService {
         star: 4.5,
         imageUrl : '/assets/food images/food-7.jpg',
         tags: ['FastFood','Lunch'],
-      }
+      },
+      {
+        id : 7,
+        name: 'Pizza',
+        cookTime: '10-20',
+        price: 10,
+        favorite: false,
+        origins: ['italy'],
+        star: 4.5,
+        imageUrl : '/assets/food images/food-8.jpg',
+        tags: ['FastFood','Lunch'],
+      },
+      {
+        id : 8,
+        name: 'Pizza',
+        cookTime: '10-20',
+        price: 10,
+        favorite: false,
+        origins: ['italy'],
+        star: 4.5,
+        imageUrl : '/assets/food images/food-1.jpg',
+        tags: ['FastFood','Lunch'],
+      },
     ];
   }
 }
