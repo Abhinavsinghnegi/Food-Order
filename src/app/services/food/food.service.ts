@@ -5,8 +5,9 @@ import { Foods } from 'src/app/shared/models/food';
   providedIn: 'root'
 })
 export class FoodService {
-
+  
   constructor() { }
+
 
   getAll():Foods[]{
     return [
@@ -23,34 +24,34 @@ export class FoodService {
       },
       {
         id : 2,
-        name: 'Pizza',
+        name: 'Meatball',
         cookTime: '10-20',
         price: 10,
         favorite: false,
         origins: ['italy'],
-        star: 4.5,
+        star: 3.5,
         imageUrl : '/assets/food images/food-3.jpg',
         tags: ['FastFood','Lunch'],
       },
       {
         id : 3,
-        name: 'Pizza',
+        name: 'Burger',
         cookTime: '10-20',
-        price: 10,
+        price: 30,
         favorite: false,
         origins: ['italy'],
-        star: 4.5,
+        star: 1.5,
         imageUrl : '/assets/food images/food-4.jpg',
         tags: ['FastFood','Lunch'],
       },
       {
         id : 4,
-        name: 'Pizza',
+        name: 'Pasta',
         cookTime: '10-20',
-        price: 10,
+        price: 15,
         favorite: false,
         origins: ['italy'],
-        star: 4.5,
+        star: 3.5,
         imageUrl : '/assets/food images/food-5.jpg',
         tags: ['FastFood','Lunch'],
       },
