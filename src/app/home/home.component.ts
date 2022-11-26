@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
     this.router.params.subscribe(params => {
       if(params['searchItem'])
       this.foods = this.fs.getAll().filter(food => food.name.toLowerCase().includes(params['searchItem'].toLowerCase()));
+      
       else
       this.foods = this.fs.getAll();
     })
