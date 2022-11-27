@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Foods } from 'src/app/shared/models/food';
+import { tag } from 'src/app/shared/models/tag';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +16,19 @@ export class FoodService {
     return this.getAll().filter(food => food.tags?.includes(tag));
   }
 
+  getAllTag():tag[]{
+    return [
+      {name: 'All', count: 14},
+      {name: 'FastFood', count: 4},
+      {name: 'Pizza', count: 2},
+      {name: 'Lunch', count: 3},
+      {name: 'SlowFood', count: 2},
+      {name: 'Hamburger', count: 1},
+      {name: 'Fry', count: 1},
+      {name: 'Soup', count: 1},
+    ];
+  }
+
   getAll():Foods[]{
     return [
       {
@@ -26,7 +40,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-1.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood','Pizza'],
       },
       {
         id : 2,
@@ -37,7 +51,7 @@ export class FoodService {
         origins: ['italy'],
         star: 3.5,
         imageUrl : '/assets/food images/food-3.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood'],
       },
       {
         id : 3,
@@ -48,7 +62,7 @@ export class FoodService {
         origins: ['italy'],
         star: 1.5,
         imageUrl : '/assets/food images/food-4.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood','Pizza','SlowFood'],
       },
       {
         id : 4,
@@ -59,7 +73,7 @@ export class FoodService {
         origins: ['italy'],
         star: 3.5,
         imageUrl : '/assets/food images/food-5.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood','SlowFood'],
       },
       {
         id : 5,
@@ -70,7 +84,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-6.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood','Hamburger'],
       },
       {
         id : 6,
@@ -92,7 +106,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-8.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood','Lunch','Fry'],
       },
       {
         id : 8,
@@ -103,7 +117,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-1.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['FastFood','Lunch','Soup'],
       },
     ];
   }
