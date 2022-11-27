@@ -17,6 +17,10 @@ div input{
     outline: none;
 }
 
+::placeholder{
+    opacity: .5;
+}
+
 div button{
     color: gray;
     height: 3rem;
