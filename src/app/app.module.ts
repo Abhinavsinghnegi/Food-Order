@@ -10,6 +10,7 @@ import { RatingModule } from 'ng-starrating';
 import { CurrencyPipe } from '@angular/common';
 import { SearchComponent } from './search/search.component';
 import { TagsComponent } from './tags/tags.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TagsComponent } from './tags/tags.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    TagsComponent
+    TagsComponent,
+    CartPageComponent
   ],
   imports: [
     BrowserModule,
