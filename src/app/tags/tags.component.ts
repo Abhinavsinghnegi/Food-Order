@@ -9,8 +9,10 @@ import { tag } from '../shared/models/tag';
 })
 export class TagsComponent implements OnInit {
   @Input()
-  
-  foodPageTags?:string[]; 
+  foodPageTags?:string[];
+  @Input()
+  justifyContent:string = 'center';  
+
   tags? : tag[] =[];
   constructor(private fs : FoodService) { }
 
