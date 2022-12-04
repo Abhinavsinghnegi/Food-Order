@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../services/cart.service';
+import { cart } from '../shared/models/cart';
 import { CartItem } from '../shared/models/cartItem';
 
 @Component({
@@ -8,7 +9,7 @@ import { CartItem } from '../shared/models/cartItem';
   styleUrls: ['./cart-page.component.css']
 })
 export class CartPageComponent implements OnInit {
-  cart!: Cart;
+  cart!: cart;
   constructor(private cartService : CartService) {
     this.setCart();
    }
