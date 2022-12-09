@@ -26,3 +26,8 @@ Also, connecting it to backend and with database would be the first priority of 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Screenshots
+
+- /assets/ss1.png
+- /assets/ss2.png
