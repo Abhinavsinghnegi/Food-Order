@@ -29,5 +29,5 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Screenshots
 
-/assets/ss1.png
-/assets/ss2.png
+src\assets\ss1.png
+src\assets\ss2.png
