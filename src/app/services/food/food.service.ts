@@ -44,7 +44,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-1.jpg',
-        tags: ['FastFood','Pizza'],
+        tags: ['Pizza','FastFood'],
       },
       {
         id : 2,
@@ -66,7 +66,7 @@ export class FoodService {
         origins: ['italy'],
         star: 1.5,
         imageUrl : '/assets/food images/food-4.jpg',
-        tags: ['FastFood','Pizza','SlowFood'],
+        tags: ['Pizza','SlowFood'],
       },
       {
         id : 4,
@@ -77,7 +77,7 @@ export class FoodService {
         origins: ['italy'],
         star: 3.5,
         imageUrl : '/assets/food images/food-5.jpg',
-        tags: ['FastFood','SlowFood'],
+        tags: ['SlowFood'],
       },
       {
         id : 5,
@@ -88,7 +88,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-6.jpg',
-        tags: ['FastFood','Hamburger'],
+        tags: ['Hamburger','FastFood'],
       },
       {
         id : 6,
@@ -99,7 +99,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-7.jpg',
-        tags: ['FastFood','Lunch'],
+        tags: ['Lunch'],
       },
       {
         id : 7,
@@ -110,7 +110,7 @@ export class FoodService {
         origins: ['italy'],
         star: 4.5,
         imageUrl : '/assets/food images/food-8.jpg',
-        tags: ['FastFood','Lunch','Fry'],
+        tags: ['Lunch','Fry'],
       },
       {
         id : 8,
